@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甜蜜的礼物</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #ffffff;
+            text-shadow: 1px 1px 2px #000000;
+        }
+        .heart {
+            font-size: 5rem;
+            color: #ff6f91;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>献给我可爱的宝贝</h1>
+    <p>这是一个专属于你的甜蜜小惊喜！💖</p>
+    <div class="heart">💗</div>
+</body>
+</html>
